@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T07:24:16.278Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="s3jWmDXofbIqNepuNDJs" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-16T07:55:12.773Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="bOcqBtofCJZt0f3s8uVm" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="950" dy="950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,6 +115,29 @@
         <UserObject label="네" placeholders="1" name="Variable" id="qs7HbI76NU4g606yzsqf-65">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
             <mxGeometry x="200" y="690" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="qs7HbI76NU4g606yzsqf-67" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qs7HbI76NU4g606yzsqf-12" target="qs7HbI76NU4g606yzsqf-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="280" as="sourcePoint" />
+            <mxPoint x="320" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qs7HbI76NU4g606yzsqf-68" value="거래명세서에 있는 장비가 &lt;br&gt;등록되어 있는가?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="225" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qs7HbI76NU4g606yzsqf-71" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="441" y="224" as="sourcePoint" />
+            <mxPoint x="278.5" y="184" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="441" y="184" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="아니오" placeholders="1" name="Variable" id="qs7HbI76NU4g606yzsqf-72">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+            <mxGeometry x="340" y="190" width="80" height="20" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
