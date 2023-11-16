@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T08:47:19.099Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Zbn1HSMLuwuyAMr6J8-m" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T08:48:27.734Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="O-2J_Ga1GMvCWivkXEl8" version="22.1.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1504" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -173,8 +173,33 @@
         <mxCell id="oHkGhMjI6xXn3DW6WMqZ-102" value="현재 행의 부모 노드에 대해 sumChildren 함수 호출하여 rate 컬럼 합계 구한다" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="950" y="745" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-104" value="합계&amp;gt;ceil 인지 체크해서 overflow 플래그 설정" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="950" y="905" width="200" height="80" as="geometry" />
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oHkGhMjI6xXn3DW6WMqZ-104" target="oHkGhMjI6xXn3DW6WMqZ-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-108" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oHkGhMjI6xXn3DW6WMqZ-107">
+          <mxGeometry x="-0.175" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oHkGhMjI6xXn3DW6WMqZ-104" target="oHkGhMjI6xXn3DW6WMqZ-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-111" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oHkGhMjI6xXn3DW6WMqZ-110">
+          <mxGeometry x="-0.5083" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-104" value="합계&amp;gt;ceil" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="980" y="905" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-106" value="overflow true" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="980" y="1065" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oHkGhMjI6xXn3DW6WMqZ-109" target="oHkGhMjI6xXn3DW6WMqZ-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-109" value="overflow false" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1100" y="1040" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oHkGhMjI6xXn3DW6WMqZ-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oHkGhMjI6xXn3DW6WMqZ-117" target="oHkGhMjI6xXn3DW6WMqZ-119">
           <mxGeometry relative="1" as="geometry" />
@@ -192,6 +217,9 @@
         </mxCell>
         <mxCell id="oHkGhMjI6xXn3DW6WMqZ-119" value="자클래스 합산후 모클래스 반영, 모클래스 합산후 루트 클래스에 반영" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1190" y="910" width="140" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oHkGhMjI6xXn3DW6WMqZ-122" target="oHkGhMjI6xXn3DW6WMqZ-171">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oHkGhMjI6xXn3DW6WMqZ-122" value="setCellValue" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1410" y="747" width="140" height="83" as="geometry" />
@@ -266,6 +294,34 @@
         </mxCell>
         <mxCell id="oHkGhMjI6xXn3DW6WMqZ-159" value="UI 및 데이터 변경&amp;nbsp;&lt;br&gt;반영" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="710" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="oHkGhMjI6xXn3DW6WMqZ-166">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="1140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oHkGhMjI6xXn3DW6WMqZ-166" target="oHkGhMjI6xXn3DW6WMqZ-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-166" value="&lt;b&gt;setCellValue&lt;/b&gt; 함수로 합계 계산 및 셀 값 설정" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="970" y="1193" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-167" value="ajaxSend호출로&lt;br&gt;실시간 데이터 반영" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="970" y="1353" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-169" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="oHkGhMjI6xXn3DW6WMqZ-171">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="957" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oHkGhMjI6xXn3DW6WMqZ-171" target="oHkGhMjI6xXn3DW6WMqZ-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-171" value="&lt;b&gt;setCellValue&lt;/b&gt; 함수로 합계 계산 및 셀 값 설정" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1240" y="1010" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-172" value="ajaxSend호출로&lt;br&gt;실시간 데이터 반영" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1240" y="1170" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
