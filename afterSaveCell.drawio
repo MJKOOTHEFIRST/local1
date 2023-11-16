@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T07:08:28.907Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="LbcqxXA4fouh3jklK_vW" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T07:57:03.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="uhL23Qzq92GVAsTWWkRQ" version="22.1.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1983" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1504" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -103,7 +103,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oHkGhMjI6xXn3DW6WMqZ-64" value="METHOD.&lt;b&gt;sumChildren&lt;/b&gt; 으로 &lt;br&gt;자식노드에 대한 column 값 합계 계산해서 &lt;br&gt;조부모 ceil 값보다 큰지 비교" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="420" y="719" width="260" height="80" as="geometry" />
+          <mxGeometry x="430" y="719" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oHkGhMjI6xXn3DW6WMqZ-69" value="level == 1" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1080" y="420" width="140" height="80" as="geometry" />
@@ -162,8 +162,11 @@
         <mxCell id="oHkGhMjI6xXn3DW6WMqZ-86" value="해당 행의 상위 노드&amp;nbsp; rate값 합산하여 새로 설정" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="240" y="717" width="180" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oHkGhMjI6xXn3DW6WMqZ-94" target="oHkGhMjI6xXn3DW6WMqZ-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oHkGhMjI6xXn3DW6WMqZ-94" value="새로운 rate 값 설정&lt;br&gt;&lt;b&gt;setCellValue&lt;/b&gt; 함수" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="410" y="825" width="160" height="80" as="geometry" />
+          <mxGeometry x="470" y="877" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oHkGhMjI6xXn3DW6WMqZ-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oHkGhMjI6xXn3DW6WMqZ-102" target="oHkGhMjI6xXn3DW6WMqZ-104">
           <mxGeometry relative="1" as="geometry" />
@@ -238,6 +241,9 @@
         </mxCell>
         <mxCell id="oHkGhMjI6xXn3DW6WMqZ-135" value="모클래스 합산 후 &lt;br&gt;루트 클래스 반영" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="700" y="1067" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-139" value="ajaxSend" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="1037" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
