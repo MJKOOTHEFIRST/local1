@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T05:57:53.490Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="yLd8xxUYvEmG1t7v-T_c" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T06:02:42.998Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8E7cpqj0_M3TaqvbNnZO" version="22.1.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1983" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -85,32 +85,32 @@
         <mxCell id="oHkGhMjI6xXn3DW6WMqZ-62" value="level == 3" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="890" y="442" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-63" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-63" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="oHkGhMjI6xXn3DW6WMqZ-64">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960" y="557" as="sourcePoint" />
-            <mxPoint x="859.5" y="607" as="targetPoint" />
+            <mxPoint x="960" y="559" as="sourcePoint" />
+            <mxPoint x="859.5" y="609" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="860" y="557" />
+              <mxPoint x="860" y="559" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="oHkGhMjI6xXn3DW6WMqZ-64" value="rate" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="790" y="607" width="140" height="80" as="geometry" />
+          <mxGeometry x="790" y="614" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oHkGhMjI6xXn3DW6WMqZ-65" value="yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="950" y="522" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-66" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-66" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="oHkGhMjI6xXn3DW6WMqZ-67">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="960" y="557" as="sourcePoint" />
+            <mxPoint x="960" y="559" as="sourcePoint" />
             <mxPoint x="1070" y="610" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1070" y="557" />
+              <mxPoint x="1070" y="559" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="oHkGhMjI6xXn3DW6WMqZ-67" value="ceil" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1000" y="609" width="140" height="80" as="geometry" />
+          <mxGeometry x="1000" y="616" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="oHkGhMjI6xXn3DW6WMqZ-68" value="" style="endArrow=none;html=1;rounded=0;endSize=5;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -160,8 +160,30 @@
             <mxPoint x="500" y="746" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-83" value="해당 행의 상위 노드&amp;nbsp; rate값 합산하여 새로 설정" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="425" y="746" width="150" height="60" as="geometry" />
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-83" value="모클래스 합산 후 루트 클래스에 반영, 계산된 합계 최대값 초과하는지 보고 overflow 플래그 설정" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="425" y="880" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-84" value="해당 행의 상위 노드&amp;nbsp; rate값 합산하여 새로 설정" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="746" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-85" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="697" as="sourcePoint" />
+            <mxPoint x="710" y="747" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="701" />
+              <mxPoint x="710" y="701" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-86" value="해당 행의 상위 노드&amp;nbsp; rate값 합산하여 새로 설정" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="747" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oHkGhMjI6xXn3DW6WMqZ-87" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="501" y="827" as="sourcePoint" />
+            <mxPoint x="501" y="877" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
